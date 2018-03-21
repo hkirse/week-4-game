@@ -1,0 +1,88 @@
+body {
+	background-image: url("../images/tree_bark.png");
+}
+
+h1{
+	background-color: cornflowerblue ;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+    border: solid 1px #ddd;
+    font-family: 'Cagliostro', sans-serif;
+}
+
+h2{
+    font-family: 'Cagliostro', sans-serif;
+}
+
+h3{
+    font-family: 'Cagliostro', sans-serif;
+}
+
+p{
+    font-family: 'Cagliostro', sans-serif;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: white;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#guessingNumber {
+	background-color: rgb(218, 128, 25);
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#scoreboard {
+	background-color: rgb(59, 47, 221);
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
+}
+
+#animals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.animalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.animalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yourTotalScore {
+	background: #0bb913;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
+}
